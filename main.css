@@ -1,0 +1,117 @@
+.overlay {
+  background-color: rgba(0,0,0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay-popup {
+  background-color: #f39c12;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 1em;
+  max-width: 280px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 4em;
+}
+
+.overlay-popup button {
+  font-size: 1.75em;
+  border: none;
+  background-color: #fff;
+  margin: .5em;
+  border-radius: 5px;
+}
+
+.overlay-popup button:hover {
+  cursor: pointer;
+}
+
+.overlay-popup p {
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.x {
+  background-image: url('x.png');
+  background-size: cover;
+}
+
+.o {
+  background-image:  url('o.png');
+  background-size: cover;
+}
+
+body {
+  color: #fff;
+  background: #1F3A93;
+  font-family: 'Baloo';
+}
+
+
+.board-wrapper {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid #fff;
+  margin-top: 3em;
+  border-radius: 8px;
+  box-shadow: 1px 5px 10px 5px #f39c12;
+}
+
+.board-wrapper h1 {
+  font-size: 4.2em;
+  margin: 0;
+}
+
+.board-wrapper button {
+  border: none;
+  font-size: 2em;
+  margin-top: 1em;
+  color: #fff;
+  background-color: #f39c12;
+  border-radius: 5px;
+  font-family: 'Baloo';
+  box-shadow: 1px 1px 5px 1px #fff;
+}
+
+.board-wrapper button:hover {
+  cursor: pointer;
+}
+
+.board-wrapper p {
+  color: #f39c12;
+  font-size: 2em;
+}
+
+.board {
+  width: 100%;
+}
+
+
+
+.board div {
+  border: 1px solid #fff;
+  height: 120px;
+  width: 32.80%;
+  float: left;
+}
+
+.board div:hover {
+  cursor: pointer;
+}
